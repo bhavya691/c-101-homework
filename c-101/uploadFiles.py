@@ -23,6 +23,7 @@ def main():
     transferData = TransferData(access_token)
     file_from = input('Enter the file name to be uploaded: \t')
     file_to = input('Enter the path to upload: \t')
+    print('Moving Files...')
     transferData.uploadFile(file_from, file_to)
     print('done')
 
